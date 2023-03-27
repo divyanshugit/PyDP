@@ -42,7 +42,7 @@ if python3 -c "import poetry" &> /dev/null; then
     echo "poetry is already installed"
 else
     echo "installing poetry"
-    pip3 install poetry
+    pip3 install poetry==1.3.2
 fi
 
 # Downloading the Google DP library

@@ -41,7 +41,7 @@ RUN ./${BAZELISK_BINARY} --version
 
 # Update pip and setuptools and install poetry
 RUN pip install --upgrade pip setuptools wheel && \
-    pip install poetry
+    pip install poetry==1.3.2
 
 # Change working dir
 WORKDIR ${PROJECT_DIR}

@@ -29,9 +29,11 @@ fi
 echo "Checking for poetry"
 if python3 -c "import poetry" &> /dev/null; then
     echo "poetry is already installed"
+    
 else
     echo "Installing poetry"
-    pip3 install poetry
+    pip3 install poetry==1.3.2
+    
 fi
 
 # bazel
