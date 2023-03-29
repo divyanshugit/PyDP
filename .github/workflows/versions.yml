@@ -136,8 +136,7 @@ jobs:
 
       - name: Install Poetry
         run: |
-          pip install poetry
-          poetry cache clear pypi --all
+          pip install poetry==1.2.0
 
       - name: Get poetry cache dir
         id: poetry-cache
