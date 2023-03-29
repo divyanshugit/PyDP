@@ -12,7 +12,7 @@ python = "^3.7"
 
 [tool.poetry.dev-dependencies]
 black            = "*"
-black-nb         = "*"
+black-nb         = "==0.7"
 bumpversion      = "==0.5.3"
 coverage         = "*"
 gcovr            = "*"
@@ -21,6 +21,7 @@ jupyter          = "*"
 matplotlib       = "*"
 mypy             = "*"
 nbqa             = "*"
+numpy            = [{ version = "<1.22.0", python = "<3.8" }, { version = "1.23.0", python = "^3.8" }]
 pandas           = [{ version = "<0.25.0", python = "<3.8" }, { version = "^1.2.3", python = "^3.8" }]
 pre-commit       = "*"
 pytest           = "*"
