@@ -15,6 +15,7 @@ black            = "*"
 black-nb         = [{ version = "<0.7", python = "<3.8" }, { version = "^0.7", python = "^3.8" }]
 bumpversion      = "==0.5.3"
 coverage         = "*"
+debugpy          = "==1.6.4"
 gcovr            = "*"
 isort            = "*"
 jupyter          = "*"
